@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rbIndia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/India"
+            android:onClick="preferedCountry"/>
+        <RadioButton
+            android:id="@+id/rbUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/UnitedStates"
+            android:onClick="preferedCountry"/>
+        <RadioButton
+            android:id="@+id/rbRsa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Russia"
+            android:onClick="preferedCountry"/>
+        <RadioButton
+            android:id="@+id/rbEu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Europe"
+            android:onClick="preferedCountry"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/countryRbBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:paddingLeft="300dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+</LinearLayout>

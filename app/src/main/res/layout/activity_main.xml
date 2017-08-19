@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.happy.layouttest.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <Button
+            android:id="@+id/checkboxActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkboxActivity"
+            android:onClick="checkboxActivity"/>
+        <Button
+            android:id="@+id/radioButtonActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButtonActivity"
+            android:onClick="radioButtonActivity"
+            android:layout_below="@id/checkboxActivity"/>
+        <Button
+            android:id="@+id/ToggleButtonActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toggleButtonActivity"
+            android:onClick="toggleButtonActivity"
+            android:layout_below="@id/radioButtonActivity"/>
+        <Button
+            android:id="@+id/SpinnerActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spinnerActivity"
+            android:onClick="spinnerActivity"
+            android:layout_below="@id/ToggleButtonActivity"/>
+        <Button
+            android:id="@+id/fragmentActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment"
+            android:onClick="fragmentActivity"
+            android:layout_below="@id/SpinnerActivity"/>
+        <Button
+            android:id="@+id/timePickerActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment"
+            android:onClick="fragmentActivity"
+            android:layout_below="@id/SpinnerActivity"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LayoutTest</string>
+    <string name="button_text">Alarm</string>
+    <string name="clear">Clear</string>
+    <string name="btn2">onClickListener</string>
+    <string name="chkBox1">Meat</string>
+    <string name="chkBox2">Cheese</string>
+
+    <string name="checkboxActivity">Checkbox Activity</string>
+    <string name="radioButtonActivity">Radio Button Activity</string>
+    <string name="toggleButtonActivity">Toggle Button Activity</string>
+    <string name="spinnerActivity">Spinner Activity</string>
+    <string name="fragment">Fragment</string>
+
+    <string name="India">India</string>
+    <string name="Australia">Australia</string>
+    <string name="UnitedStates">United States</string>
+    <string name="Russia">Russia</string>
+    <string name="Europe">Europe</string>
+    <string name="pick_time">PickTime</string>
+
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Pluto</item>
+        <item>Saturn</item>
+        <item>Jupiter</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
